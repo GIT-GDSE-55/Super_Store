@@ -19,7 +19,6 @@ public class ItemDTO {
     private String description;
     private double unitPrice;
     private int qtyOnHand;
-
     public ItemDTO() {
     }
 
@@ -30,7 +29,6 @@ public class ItemDTO {
         this.qtyOnHand = qtyOnHand;
     }
 
-
     public String getCode() {
         return code;
     }
@@ -39,31 +37,25 @@ public class ItemDTO {
         this.code = code;
     }
 
-
     public String getDescription() {
         return description;
     }
-
 
     public void setDescription(String description) {
         this.description = description;
     }
 
-
     public double getUnitPrice() {
         return unitPrice;
     }
-
 
     public void setUnitPrice(double unitPrice) {
         this.unitPrice = unitPrice;
     }
 
-
     public int getQtyOnHand() {
         return qtyOnHand;
     }
-
 
     public void setQtyOnHand(int qtyOnHand) {
         this.qtyOnHand = qtyOnHand;
