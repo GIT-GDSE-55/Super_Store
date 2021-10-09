@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="245.0" prefWidth="665.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
+   <children>
+      <TextField fx:id="txtCode" layoutX="9.0" layoutY="90.0" promptText="Code" />
+      <Label alignment="CENTER" prefHeight="39.0" prefWidth="764.0" text="Item Form" textFill="#33069e">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Separator layoutX="19.0" layoutY="50.0" prefHeight="0.0" prefWidth="589.0" />
+      <TextField fx:id="txtDescription" layoutX="167.0" layoutY="90.0" promptText="Description" />
+      <TextField fx:id="txtUnitPrice" layoutX="325.0" layoutY="90.0" prefHeight="25.0" prefWidth="273.0" promptText="Unit Price" />
+      <TextField fx:id="txtQtyOnHand" layoutX="608.0" layoutY="90.0" prefHeight="25.0" prefWidth="149.0" promptText="Qty On Hand" />
+      <JFXButton fx:id="btnSaveItem" buttonType="RAISED" layoutX="314.0" layoutY="163.0" onAction="#saveItemOnAction" prefHeight="29.0" prefWidth="149.0" style="-fx-background-color: #3498db;" text="Save" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
