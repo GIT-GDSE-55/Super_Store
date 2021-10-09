@@ -26,6 +26,5 @@ public class AppInitializer extends Application {
         primaryStage.setScene(new Scene(FXMLLoader.load(this.getClass()
                 .getResource("view/CustomerForm.fxml"))));
         primaryStage.show();  //Ctrl + ALT+ L
-
     }
 }
